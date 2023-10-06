@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>3genSearch</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.costura.pdb.compressed" />
+    <None Remove="costura.pokemon3genrnglibrary.dll.compressed" />
+    <None Remove="costura.pokemon3genrnglibrary.frontier.dll.compressed" />
+    <None Remove="costura.pokemonprng.dll.compressed" />
+    <None Remove="costura.pokemonstandardlibrary.dll.compressed" />
+    <None Remove="costura.pokemonstandardlibrary.gen3.dll.compressed" />
+    <None Remove="costura.system.diagnostics.diagnosticsource.dll.compressed" />
+    <None Remove="costura.metadata" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" LogicalName="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.pdb.compressed" LogicalName="costura.costura.pdb.compressed" />
+    <EmbeddedResource Include="costura.pokemon3genrnglibrary.dll.compressed" LogicalName="costura.pokemon3genrnglibrary.dll.compressed" />
+    <EmbeddedResource Include="costura.pokemon3genrnglibrary.frontier.dll.compressed" LogicalName="costura.pokemon3genrnglibrary.frontier.dll.compressed" />
+    <EmbeddedResource Include="costura.pokemonprng.dll.compressed" LogicalName="costura.pokemonprng.dll.compressed" />
+    <EmbeddedResource Include="costura.pokemonstandardlibrary.dll.compressed" LogicalName="costura.pokemonstandardlibrary.dll.compressed" />
+    <EmbeddedResource Include="costura.pokemonstandardlibrary.gen3.dll.compressed" LogicalName="costura.pokemonstandardlibrary.gen3.dll.compressed" />
+    <EmbeddedResource Include="costura.system.diagnostics.diagnosticsource.dll.compressed" LogicalName="costura.system.diagnostics.diagnosticsource.dll.compressed" />
+    <EmbeddedResource Include="costura.metadata" LogicalName="costura.metadata" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PokemonPRNG">
+      <HintPath>PokemonPRNG.dll</HintPath>
+    </Reference>
+    <Reference Include="PokemonStandardLibrary.Gen3">
+      <HintPath>PokemonStandardLibrary.Gen3.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="PokemonStandardLibrary">
+      <HintPath>PokemonStandardLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Pokemon3genRNGLibrary">
+      <HintPath>Pokemon3genRNGLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Pokemon3genRNGLibrary.Frontier">
+      <HintPath>Pokemon3genRNGLibrary.Frontier.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

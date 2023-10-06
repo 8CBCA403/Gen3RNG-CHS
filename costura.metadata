@@ -1,0 +1,8 @@
+costura.costura.dll.compressed|5.7.0.0|Costura, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|F1F25C01F6ACF33BDD62C4F82D3EF078E76F0906|4608
+costura.costura.pdb.compressed|||Costura.pdb|6C6000A5EAF8579850AB82A89BD6268776EB51AD|2608
+costura.pokemon3genrnglibrary.dll.compressed|0.1.6.0|Pokemon3genRNGLibrary, Version=0.1.6.0, Culture=neutral, PublicKeyToken=null|Pokemon3genRNGLibrary.dll|D5D2F9E4BC7E53BBA6A7A4C8B0D7D70EA94BA3B2|280064
+costura.pokemon3genrnglibrary.frontier.dll.compressed|0.3.0.0|Pokemon3genRNGLibrary.Frontier, Version=0.3.0.0, Culture=neutral, PublicKeyToken=null|Pokemon3genRNGLibrary.Frontier.dll|BBBF46396E2AFF46936D3E61C2F422E091C62091|172032
+costura.pokemonprng.dll.compressed|3.5.9.0|PokemonPRNG, Version=3.5.9.0, Culture=neutral, PublicKeyToken=null|PokemonPRNG.dll|8285CFE3F2E132B7608E335803B0DF964DFC7284|52224
+costura.pokemonstandardlibrary.dll.compressed|1.4.0.0|PokemonStandardLibrary, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null|PokemonStandardLibrary.dll|7CFE610345C49C523BFC734BC4855AD3C3C43782|18944
+costura.pokemonstandardlibrary.gen3.dll.compressed|1.2.0.0|PokemonStandardLibrary.Gen3, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null|PokemonStandardLibrary.Gen3.dll|D0A23CF61812B996493059F0F5CEFC7A9B21B5E8|91136
+costura.system.diagnostics.diagnosticsource.dll.compressed|4.0.1.0|System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Diagnostics.DiagnosticSource.dll|85DC92EDD4B0049ED9049E075C4DEF8A3D64E43B|35760
